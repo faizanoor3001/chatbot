@@ -506,7 +506,7 @@ After the last `DEOPT_IF` has passed, a hit should be recorded with
 After an optimization has been deferred in the adaptive instruction,
 that should be recorded with `STAT_INC(BASE_INSTRUCTION, deferred)`.
 
-### How to add a new bytecode specialization
+## How to add a new bytecode specialization
 
 Assuming you found an instruction that serves as a good specialization candidate. 
 Let's use the example of [`CONTAINS_OP` definition](../Doc/library/dis.rst#contains_op):
